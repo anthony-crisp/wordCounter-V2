@@ -1,10 +1,22 @@
+# {
+#   "extends": "airbnb",
+#   "parser": "babel-eslint",
+#   "env": {
+#     "browser": true,
+#     "node": true,
+#     "es6": true,
+#     "mocha": true
+#   },
+# }
 {
-  "extends": "airbnb",
-  "parser": "babel-eslint",
-  "env": {
-    "browser": true,
-    "node": true,
-    "es6": true,
-    "mocha": true
+  "plugins": ["jasmine"],
+  "extends": ["airbnb", "eslint:recommended", "plugin:jasmine/recommended"],
+  "rules": {
+    "quotes": [ 2, "single"],
+    "strict": [2, "global"],
+    "semi": ["error", "always"],
   },
+  "env": {
+    "jasmine": true
+  }
 }
