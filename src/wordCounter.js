@@ -26,6 +26,7 @@ class WordCounter {
       }
     }
   }
+  
   addPrime() {
   Object.keys(this.wordHash).forEach((key) => {
     const value = this.wordHash[key];
