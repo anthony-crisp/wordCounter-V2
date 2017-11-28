@@ -25,6 +25,6 @@ describe('wordCounter', () => {
       wordCounter.addWordsToArray(text);
 
       expect(wordCounter.wordArray).toEqual(['hello', 'world']);
-    });
+    }); 
   });
 });
