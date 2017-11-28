@@ -19,7 +19,8 @@
   "dependencies": {
     "jasmine-node": "^1.14.5",
     "jasmine-terminal-reporter": "^1.0.3",
-    "require": "^2.4.20"
+    "require": "^2.4.20",
+    "uglify-js": "^3.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
