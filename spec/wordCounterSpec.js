@@ -1,7 +1,7 @@
 const WordCounter = require('../src/wordCounter.js');
 
 describe('wordCounter', () => {
-  beforeEach(function() {
+  beforeEach(() => {
     wordCounter = new WordCounter();
   });
 
@@ -25,6 +25,6 @@ describe('wordCounter', () => {
       wordCounter.addWordsToArray(text);
 
       expect(wordCounter.wordArray).toEqual(['hello', 'world']);
-    }); 
+    });
   });
 });

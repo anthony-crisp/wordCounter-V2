@@ -26,14 +26,14 @@ class WordCounter {
       }
     }
   }
-  
+
   addPrime() {
-  Object.keys(this.wordHash).forEach((key) => {
-    const value = this.wordHash[key];
-    const prime = isPrime(value);
-    const arr = [value, prime];
-    this.wordHashWithPrime[key] = arr;
-  });
-}
+    Object.keys(this.wordHash).forEach((key) => {
+      const value = this.wordHash[key];
+      const prime = isPrime(value);
+      const arr = [value, prime];
+      this.wordHashWithPrime[key] = arr;
+    });
+  }
 }
 module.exports = WordCounter;
