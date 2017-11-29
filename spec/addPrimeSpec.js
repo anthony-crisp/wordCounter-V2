@@ -8,7 +8,8 @@ describe('wordCounter', () => {
 
   describe('#addPrime', () => {
     it('states if word occurrence is prime', () => {
-      const text = 'The good news about computers is that they do what you tell them to do. The bad news is that they do what you tell them to do.';
+      const text = `The good news about computers is that they do what you tell them to do.
+      The bad news is that they do what you tell them to do.`;
       // ^^ Ted Nelson ^^
       wordCounter.addWordsToArray(text);
       wordCounter.countWords();
